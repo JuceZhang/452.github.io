@@ -1,0 +1,107 @@
+ 
+table {  
+  width: 100%; 
+  border-collapse: collapse;  
+  margin-bottom: 20px;   
+}  
+  
+ 
+table caption {  
+  font-weight: bold;   
+  text-align: center;  
+  padding: 10px 0;  
+  caption-side: top; 
+}  
+  
+  
+thead {  
+  background-color: #f2f2f2;   
+}  
+  
+
+th {  
+  padding: 20px;  
+  text-align: center; 
+  border-bottom: 2px solid #ddd;  
+}  
+  
+
+tbody {  
+  background-color: #fff;   
+}  
+  
+ 
+td {  
+  text-align: center; 
+  padding: 10px; 
+  border-bottom: 1px solid #ddd; 
+}  
+  
+ 
+tbody tr:nth-child(even) {  
+  background-color: #f9f9f9;   
+}  
+  
+
+tbody tr:hover {  
+  background-color: #e5e5e5;  
+}  
+  
+ 
+tfoot {  
+  background-color: #f2f2f2;  
+}  
+
+h1, h2 {  
+  text-align: center; 
+  margin-top: 0;  
+  margin-bottom: 20px; 
+}  
+  
+    /* Level two heading (h2) */  
+    h2 {  
+      font-style: italic; 
+
+    }  
+      
+    /* Unordered list (ul) for contact details */  
+    ul.contact-details {  
+      background-color: #eeeeee;  
+      border: 5px solid purple;  
+      padding: 15px; /* Adjust padding as needed */  
+    }  
+      
+    /* Links (a) on hover */  
+    a:hover {  
+      color: green;  
+    }  
+      
+    /* Footer paragraph */  
+    footer p {  
+      text-align: center; /* Center the paragraph */  
+    }
+  
+    /* styles.css */  
+  img {  
+    width: 200px;  
+    height: auto;  
+    border: 5px solid black;   
+    padding: 10px;   
+  }
+  .purple-border {  
+    border: 3px solid purple;  
+    padding: 10px; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+.info {  
+  list-style-type: none;   
+  padding: 0;   
+  display: flex;   
+  justify-content: center;   
+}  
+
+
+.info li {  
+  margin: 0 10px;   
+}
