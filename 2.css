@@ -1,0 +1,127 @@
+* {  
+    box-sizing: border-box;  
+}  
+  
+h1,  
+h2,  
+h3 {  
+    font-weight: bold;  
+}  
+  
+body {  
+    padding: 20px;  
+    font-size: 16px;  
+    line-height: 1.5;  
+    max-width: 100%;  
+    margin: 0;  
+    min-height: 100vh;  
+    color: #333;  
+    font-family: Arial, sans-serif;  
+}  
+  
+img {  
+    max-width: 100%;  
+}  
+  
+.Header {  
+    text-align: center;  
+    border-bottom: 1px solid #ccc;  
+    margin-bottom: 20px;  
+    padding-bottom: 10px;  
+}  
+  
+.Strap {  
+    font-size: 14px;  
+}  
+  
+.MoneyShot {  
+    position: relative;  
+}  
+  
+.MoneyShotImg {  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    width: 100%;
+}
+/*  
+ * CSS file for recipe website  
+ * Author: Your Full Name  
+ */  
+  
+/* Logo and Image Caption Styles */  
+.LogoWrapper {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}  
+  
+.ImageCaption {  
+    font-size: 14px;  
+    position: absolute;  
+    bottom: 10px;  
+    right: 10px;  
+    padding: 5px;  
+    background-color: rgba(7, 7, 7, 0.5);  
+    color: white;  
+}  
+  
+/* Introduction Text Styles */  
+.IntroText {  
+    font-style: italic;  
+    padding: 20px;  
+}  
+  
+/* Method List Styles */  
+.MethodWrapper li {  
+    padding: 10px;  
+    list-style-type: decimal-leading-zero;  
+    line-height: 1.5em;;  
+}  
+  
+/* Responsive Styles */  
+@media screen and (min-width: 800px) {  
+    body {  
+        border-left: 1px solid #ccc;  
+        border-right: 1px solid #ccc;  
+        padding: 30px;  
+    }  
+  
+    .IntroWrapper {  
+        display: flex;  
+        gap: 20px;  
+        flex-wrap: wrap;  
+        align-items: center;  
+    }  
+  
+    .MoneyShot,  
+    .IntroText {  
+        margin: 10px;  
+        flex: 1 0 45%;  
+    }  
+  
+    .MoneyShotImg {  
+        filter: brightness(80%);  
+        border: 1px solid #ccc;  
+    }  
+  
+    .IntroText {  
+        padding: 20px;  
+        font-size: xx-large;  
+        text-align: justify;  
+        position: relative;  
+    }  
+  
+    .Ingredients {  
+        font-size: 16px;  
+        float: right;  
+        padding: 10px;  
+        margin: 10px;  
+        border-radius: 5px;  
+        background-color: #f3a006;  
+        border: 8px solid #f2f207;  
+    }  
+  
+    .Ingredients h3 {  
+        margin: 0;  
+    }  
+}
